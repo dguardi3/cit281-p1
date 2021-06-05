@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# cit281-lab1
 
-You can use the [editor on GitHub](https://github.com/dguardi3/cit281-p1/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Lab 1: Introduction To Terminal and Node.js
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Overview
+This lab focused on setting up a computer with the basic software required to launch a Node.js server. From this lab I learned how to use terminal and shell commands to create and manipulate directories, and also how to set up my first Node.js server.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### Project Code
 ```markdown
-Syntax highlighted code block
+/*
+    CIT 281 Project 1
+    Name: Devin Guardino
+*/
 
-# Header 1
-## Header 2
-### Header 3
+// Returns a random number between min (inclusive) and max (exclusive)
+function getRandomInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+}
 
-- Bulleted
-- List
+const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+let result = "";
 
-1. Numbered
-2. List
+for (let i = 0; i < getRandomInteger(5, 26); i++) {
+    result += alphabet[getRandomInteger(1,alphabet.length-1)];
+}
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+console.log(result);
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dguardi3/cit281-p1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
