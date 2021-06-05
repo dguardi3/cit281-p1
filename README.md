@@ -1,9 +1,9 @@
-# cit281-lab1
+# cit281-p1
 
-# Lab 1: Introduction To Terminal and Node.js
+# Project 1: Practicing CLI and coding Javascript
 
 ### Overview
-This lab focused on setting up a computer with the basic software required to launch a Node.js server. From this lab I learned how to use terminal and shell commands to create and manipulate directories, and also how to set up my first Node.js server.
+In this project I used CLI commands to create an array of folders. I also gained experience writing and executing Node.js Javascript code.
 
 ### Project Code
 ```markdown
