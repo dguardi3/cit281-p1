@@ -1,6 +1,6 @@
 # cit281-p1
 
-# Project 1: Practicing CLI and coding Javascript
+# Project 1: Practicing CLI Commands and coding Javascript
 
 ### Overview
 In this project I used CLI commands to create an array of folders. I also gained experience writing and executing Node.js Javascript code.
